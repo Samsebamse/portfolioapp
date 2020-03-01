@@ -1,0 +1,20 @@
+.navbar {
+    grid-area: navbar;
+    background-color:#eee;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar ul {
+    padding-inline-start: 2vw;
+    padding-inline-end: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbartext {
+    color: black;
+    font-weight: bolder;
+}

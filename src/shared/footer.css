@@ -1,0 +1,15 @@
+.footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer > img {
+    width: 5%;
+    height: auto;
+    padding: 1% 2% 1% 2%;
+}
