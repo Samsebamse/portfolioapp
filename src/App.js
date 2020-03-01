@@ -5,7 +5,7 @@ import './App.css';
 import { navbar } from './shared/navbar';
 import { footer } from './shared/footer';
 
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
     return (
